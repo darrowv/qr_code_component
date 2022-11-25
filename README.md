@@ -5,6 +5,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
+  - [Deployed Page](#page)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
@@ -16,7 +17,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ![](./screenshot.png)
 
-### Page
+### Deployed Page
 
 [You can take a look here](https://darrowv.github.io/qr-component)
 
