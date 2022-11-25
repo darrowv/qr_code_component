@@ -1,0 +1,57 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Outfit', sans-serif;
+}
+
+html {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.container {
+  width: 300px;
+  margin: 100px auto;
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+
+
+}
+
+@media (max-width: 444px) {
+  .container {
+    width: 80%;
+  }
+}
+
+.card__img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card__text {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.upper-text {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.bottom-text {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+}
