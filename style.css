@@ -2,6 +2,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -22,33 +24,39 @@ html {
 }
 
 .container {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.card {
   width: 300px;
-  margin: 100px auto;
-  text-align: center;
   background-color: white;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 15px;
+  text-align: center;
 }
 
 @media (max-width: 444px) {
-  .container {
+  .card {
     width: 80%;
   }
 }
 
 .card__img img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 .card__text {
   width: 90%;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .upper-text {
   font-size: 20px;
   font-weight: 700;
+  margin-bottom: 1em;
 }
 
 .bottom-text {
