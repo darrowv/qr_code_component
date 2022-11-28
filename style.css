@@ -1,3 +1,8 @@
+:root {
+  --light-bluish-grey: hsl(212, 45%, 89%);
+  --bluish-grey: hsl(220, 15%, 55%);
+}
+
 *,
 *::before,
 *::after {
@@ -12,7 +17,7 @@ body {
 }
 
 html {
-  background-color: hsl(212, 45%, 89%);
+  background-color: var(--light-bluish-grey);
 }
 
 .attribution {
@@ -61,5 +66,5 @@ html {
 
 .bottom-text {
   font-size: 15px;
-  color: hsl(220, 15%, 55%);
+  color: var(--bluish-grey);
 }
